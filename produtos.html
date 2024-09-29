@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="produtos.css">
+    <title>Big Bike</title>
+</head>
+
+<body>
+    <div class="topo">
+        <div>
+            <img src="logo.png" alt="erro">
+        </div>
+        <div class="titulo">
+            <h1> BIG BIKE </h1>
+        </div>
+        <div class="botoesT">
+            <button onclick="voltarMenuInicial()"> HOME </button>
+        </div>
+    </div>
+
+    <div class="artigo">
+        <center>
+            <h1>ARTIGOS PARA MOTOS</h1>
+        </center>
+    </div>
+
+    <div class="itensM">
+        <div class="produto1">
+            <h1>Espelho Retrovisor</h1>
+            <h2>
+                cg160
+                <br>
+                R$ 116,54
+            </h2>
+            <img src="retrovisor.jpg" alt="retrovisor" />
+            <nav>
+                <button id="btn_form">COMPRAR</button>
+                <button id="btn_close" style="display: none;">FECHAR</button>
+
+                <form id="my_form" name="formCadastro" onsubmit="return validarFormulario()" method="pos"
+                    style="display: none;">
+                    <br>
+                    <label for="nome">Informe o seu Nome:</label>
+                    <input type="text" name="nome">
+                    <br><br>
+                    <label for="nome">Forma de Pagamento:</label>
+                    <input type="text" name="pag">
+                    <br><br>
+                    <label for="nome">Endereço:</label>
+                    <input type="text" name="endereco">
+                    <input type="submit" value="Enviar">
+                </form>
+            </nav>
+        </div>
+
+        <div class="produto2">
+            <h1>Sinaleira Traseira</h1>
+            <h2>cg 150, cg 160 <br>
+                R$ 142,11</h2>
+            <img src="sinaleira.jpg" alt="Sinaleira traseira" />
+            <nav>
+                <button>COMPRAR</button>
+            </nav>
+        </div>
+
+        <div class="produto3">
+            <h1>Bateria DTZ5 12V A4h</h1>
+            <h2> cg 125, cg 160 <br>R$ 574,64</h2>
+            <img src="bateria.jpg" alt="Bateria DTZ5  12V A4h" />
+            <nav>
+                <button id="btn_form">COMPRAR</button>
+                <button id="btn_close" style="display: none;">FECHAR</button>
+
+                <form id="my_form" name="formCadastro" onsubmit="return validarFormulario()" method="post"
+                    style="display: none;">
+                    <br>
+                    <label for="nome">Informe o seu Nome:</label>
+                    <input type="text" name="nome">
+                    <br><br>
+                    <label for="nome">Forma de Pagamento:</label>
+                    <input type="text" name="pag">
+                    <br><br>
+                    <label for="nome">Endereço:</label>
+                    <input type="text" name="endereco">
+                    <input type="submit" value="Enviar">
+                </form>
+            </nav>
+        </div>
+
+        <div class="produto4">
+            <h1>Amortecedor Traseiro</h1>
+            <h2>cb 250F<br>
+                R$ 500,00</h2>
+            <img src="amortecedor.jpg" alt="Amortecedor Traseiro" />
+            <nav>
+                <button>COMPRAR</button>
+            </nav>
+        </div>
+    </div>
+    <br>
+    <div class="artigo">
+        <center>
+            <h1>ARTIGOS PARA BIKES</h1>
+        </center>
+    </div>
+    <br>
+    <div class="itensB">
+        <div class="produto5">
+            <h1>Garrafa Isotherm </h1>
+            <h2>
+                R$ 25,00</h2>
+            <img src="garrafa.jpg" alt="Garrafa Isotherm" />
+            <nav>
+                <button>COMPRAR</button>
+            </nav>
+        </div>
+
+
+        <div class="produto6">
+            <h1>Pisca Elleven light </h1>
+            <h2>
+                R$ 69,00</h2>
+            <img src="pisca.jpg" alt="Pisca Elleven light" />
+            <nav>
+                <button>COMPRAR</button>
+            </nav>
+        </div>
+        <div class="class= produto7">
+            <h1>Cadeado Elleven</h1>
+            <h2> R$ 80,00</h2>
+            <img src="cadeado.jpg" alt="Cadeado Elleven" />
+            <nav>
+                <button>COMPRAR</button>
+            </nav>
+        </div>
+        <div class="produto8">
+            <h1>Bicicleta Aro 29</h1>
+            <h2> R$ 800,00</h2>
+            <img src="shopping.webp" alt="Bicicleta Aro 29 Aço Carbono Ksvj " />
+            <nav>
+                <button>COMPRAR</button>
+            </nav>
+        </div>
+    </div>
+    <br>
+    <div class="rodape">
+        <div>
+            <a href=" https://www.instagram.com/bigbikemotos/" target="_blank">
+                <img src="Insta.png" alt="insta" className="nn" />
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+.topo {
+    background-color: orangered;
+    display: flex;
+    height: 150px;
+}
+
+.topo .titulo h1 {
+    margin-left: 700px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.topo img {
+    border-radius: 100px;
+    margin-left: 50px;
+    height: 120px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.topo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.topo .botoesT {
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+button {
+    background-color: rgb(196, 194, 194);
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 102, 255);
+}
+
+.menu {
+    display: flex;
+    gap: 250px;
+}
+
+.titulo2 {
+    margin-left: 280px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu img {
+    margin-left: 150px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.recado {
+    background-color: orangered;
+    width: 500px;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+
+.recado h2 {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.rodape {
+    display: flex;
+    background-color: orangered;
+    gap: 450px;
+    height: 120px;
+}
+
+.rodape .botaoR {
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.rodape img {
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 185px;
+    transition: all 0.3s ease-in-out;
+}
+
+.rodape img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

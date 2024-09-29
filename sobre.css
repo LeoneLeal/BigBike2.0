@@ -1,0 +1,102 @@
+.topo {
+    background-color: orangered;
+    display: flex;
+    height: 150px;
+}
+
+.topo .titulo h1 {
+    margin-left: 680px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.topo img {
+    border-radius: 100px;
+    margin-left: 50px;
+    height: 120px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.topo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.topo .botoesT {
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+.recado {
+    background-color: orangered;
+    width: 1000px;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+
+.recado h2 {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.rodape {
+    display: flex;
+    background-color: orangered;
+    height: 120px;
+}
+
+.rodape img {
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 900px;
+    transition: all 0.3s ease-in-out;
+}
+
+.rodape img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: rgb(196, 194, 194);
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 102, 255);
+}
+
+.menu2 {
+    display: flex;
+    gap: 200px;
+    margin-left: 430px;
+}
+
+.contato {
+    background-color: orangered;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.email {
+    background-color: orangered;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.contato h1 {
+    font-size: x-large;
+}
+
+.email h1 {
+    font-size: x-large;
+}

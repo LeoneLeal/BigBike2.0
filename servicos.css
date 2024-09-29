@@ -1,0 +1,108 @@
+.topo {
+    background-color: orangered;
+    display: flex;
+    height: 150px;
+}
+
+.topo .titulo h1 {
+    margin-left: 700px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.topo img {
+    border-radius: 100px;
+    margin-left: 50px;
+    height: 120px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.topo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.topo .botoesT {
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+.servicos {
+    display: flex;
+    gap: 300px;
+    margin-top: 120px;
+    margin-left: 350px;
+}
+
+.moto h1 {
+    background-color: orangered;
+    width: 450px;
+    font-size: x-large;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.moto p {
+    margin-top: 20px;
+    width: 450px;
+    height: 200px;
+    font-size: x-large;
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+
+.bike h1 {
+    background-color: orangered;
+    width: 450px;
+    font-size: x-large;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.bike p {
+    margin-top: 20px;
+    width: 450px;
+    height: 200px;
+    font-size: x-large;
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+
+.rodape {
+    display: flex;
+    background-color: orangered;
+    height: 120px;
+    margin-top: 190px;
+}
+
+.rodape img {
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 895px;
+    transition: all 0.3s ease-in-out;
+}
+
+.rodape img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: rgb(196, 194, 194);
+    height: 25px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 102, 255);
+}
